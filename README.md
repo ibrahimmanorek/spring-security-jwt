@@ -112,17 +112,17 @@ Run both Back-end & Front-end in one place:
 Open `src/main/resources/application.properties`
 
 ```properties
-spring.datasource.url= jdbc:mysql://localhost:3306/testdb?useSSL=false
-spring.datasource.username= root
-spring.datasource.password= 123456
+spring.datasource.url=jdbc:mysql://localhost:3306/testdb?useSSL=false
+spring.datasource.username=root
+spring.datasource.password=123456
 
 spring.jpa.properties.hibernate.dialect= org.hibernate.dialect.MySQL5InnoDBDialect
-spring.jpa.hibernate.ddl-auto= update
+spring.jpa.hibernate.ddl-auto=update
 
 # App Properties
-bezkoder.app.jwtSecret= bezKoderSecretKey
-bezkoder.app.jwtExpirationMs= 3600000
-bezkoder.app.jwtRefreshExpirationMs= 86400000
+config.app.jwtSecret=r4h4514123
+config.app.jwtExpirationMs=3600000
+config.app.jwtRefreshExpirationMs=86400000
 ```
 
 ## Run Spring Boot application
